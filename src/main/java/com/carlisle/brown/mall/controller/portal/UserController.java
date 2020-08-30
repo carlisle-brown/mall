@@ -158,7 +158,7 @@ public class UserController {
     }
 
     /**
-     * 获取当前登录用户的详细信息
+     * 当前登录用户的详细信息
      *
      * @param session
      * @return
