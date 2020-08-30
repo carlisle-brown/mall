@@ -2,9 +2,7 @@ package com.carlisle.brown.mall.dao;
 
 import com.carlisle.brown.mall.pojo.User;
 import org.apache.ibatis.annotations.Param;
-import org.springframework.stereotype.Repository;
 
-@Repository
 public interface UserMapper {
     int deleteByPrimaryKey(Integer id);
 
