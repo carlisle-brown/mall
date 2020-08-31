@@ -1,0 +1,26 @@
+# MD5 盐值
+password:
+  salt: carlislesdafaqj23ou89ZXcj@#$@#$#@KJdjklj;D../dSF.,
+# FTP 相关配置
+ftp:
+  server:
+    ip: Server Ip
+    http:
+      prefix: http://img.mmall.com/
+  user: mallftp
+  pass: ftppassword
+# 数据源配置
+spring:
+  datasource:
+    url: jdbc:mysql://IP:PORT/mmall?characterEncoding=UTF-8
+    username: 用户名
+    password: 密码
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      initial-size: 5
+      min-idle: 5
+      max-active: 50
+      max-wait: 60000
+mybatis:
+  type-aliases-package: com.carlisle.brown.mall.dao
